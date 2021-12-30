@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dijital Türkiye Saati</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+
+        <h1>Dijital Türkiye Saati</h1>
+
+
+
+    <div class="wrapper">
+        <div class="display">
+            <div id="time">00:00:00</div>
+        </div>
+        <span></span>
+        <span></span>
+    </div>
+
+        <div class="box">
+            
+            <h3>Sosyal Medya Hesaplarımı Takip Edebilirsiniz</h3><br>
+
+            <ul>
+                <li><a href="https://www.instagram.com/yusufyagmur.7/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/yusuf.yagmur.3139241" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/YusufYagmur0" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+
+        </div>
+
+    <script>
+       setInterval(()=>{ 
+        const time = document.querySelector("#time");
+        let date = new Date();
+        let hours = date.getHours();
+        let minutes = date.getMinutes();
+        let seconds = date.getSeconds();
+        time.textContent = hours + ":" + minutes + ":" + seconds;
+       });
+    </script>
+    
+</body>
+</html>
