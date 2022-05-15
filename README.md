@@ -1,3 +1,3 @@
 # Saat
 
-# Öylesine yapılmıi bir şey. Hiç değilse akılda bir yer bulundursun
+# Öylesine yapılmış bir şey. Hiç değilse akılda bir yer bulundursun
